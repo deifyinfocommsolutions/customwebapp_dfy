@@ -24,6 +24,14 @@
     "arguments": {
         "install" : [
             {
+                "label": "Custom Webapp",
+                "type": "label",
+                "ask": {
+                    "en": "Choose a Name for the App"
+                },
+                "example": "CustomWebApp"
+            },
+            {                
                 "name": "domain",
                 "type": "domain",
                 "ask": {
