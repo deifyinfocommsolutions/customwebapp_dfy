@@ -12,8 +12,7 @@ source /usr/share/yunohost/helpers
 # LOAD SETTINGS
 #=================================================
 
-#app=$YNH_APP_INSTANCE_NAME
-app=$YNH_APP_ARG_LABEL
+app=$YNH_APP_INSTANCE_NAME
 
 domain=$(ynh_app_setting_get $app domain)
 with_mysql=$(ynh_app_setting_get $app with_mysql)
