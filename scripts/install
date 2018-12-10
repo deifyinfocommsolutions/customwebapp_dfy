@@ -24,7 +24,8 @@ password=$YNH_APP_ARG_PASSWORD
 is_public=$YNH_APP_ARG_IS_PUBLIC
 with_mysql=$YNH_APP_ARG_WITH_MYSQL
 
-app=$YNH_APP_INSTANCE_NAME
+#app=$YNH_APP_INSTANCE_NAME
+app="Powerknowledge_Website"
 app_nb=$YNH_APP_INSTANCE_NUMBER
 
 #=================================================
