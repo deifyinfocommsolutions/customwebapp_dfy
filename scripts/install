@@ -18,14 +18,15 @@ ynh_abort_if_errors
 #=================================================
 # RETRIEVE ARGUMENTS FROM THE MANIFEST
 #=================================================
-
+label=$YNH_APP_ARG_LABEL
 domain=$YNH_APP_ARG_DOMAIN
 path_url=$YNH_APP_ARG_PATH
 password=$YNH_APP_ARG_PASSWORD
 is_public=$YNH_APP_ARG_IS_PUBLIC
 with_mysql=$YNH_APP_ARG_WITH_MYSQL
 
-app=$YNH_APP_INSTANCE_NAME
+#app=$YNH_APP_INSTANCE_NAME
+app=$YNH_APP_ARG_LABEL
 app_nb=$YNH_APP_INSTANCE_NUMBER
 
 #=================================================
