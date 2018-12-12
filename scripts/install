@@ -27,7 +27,7 @@ with_mysql=$YNH_APP_ARG_WITH_MYSQL
 
 #app=$YNH_APP_INSTANCE_NAME
 app=$YNH_APP_ARG_APPNAME
-app_nb=$YNH_APP_INSTANCE_NUMBER
+#app_nb=$YNH_APP_INSTANCE_NUMBER
 
 #=================================================
 # CHECK IF THE APP CAN BE INSTALLED WITH THESE ARGS
